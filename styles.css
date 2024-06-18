@@ -1,0 +1,144 @@
+html
+{
+    font-size: 12px;
+}
+
+div[class="top"]
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 3rem;
+    background-image: url(./images/food_banner.jpeg);
+    padding: 1px;
+    margin-bottom: 1rem;
+}
+
+div[class="top"]:hover
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 3rem;
+    background-image: url(./images/food_banner_hover.jpeg);
+    padding: 1px;
+    margin-bottom: 1rem;
+}
+
+div[class="top"] h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: inherit;
+    background-color: #E9BE31;
+    white-space: nowrap;
+    overflow: hidden;     
+} /*Please note that I found the overflow and whitespace properties from the 
+    internet as I had issues with my H1 text wrapping outside its intended borders*/
+
+#container
+{
+    height: fit-content;
+    background-color: blanchedalmond;
+    border-radius: 3rem;
+}    
+
+#nav
+{
+    width: 20rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #E9BE31;
+    float: left;
+}
+
+#nav a
+{
+    line-height: 600%;
+    text-align: center;
+    border-radius: 3rem;
+    background-color: blanchedalmond;
+    padding: 1rem;
+    margin-left: 20%;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor:crosshair;
+}
+
+#nav a:hover
+{
+    background-color: beige;
+    border-style: solid;
+}
+
+#content
+{
+    color: beige;
+    margin-left: 21rem;
+    line-height: 145%;
+    width: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #E9BE31;
+    white-space: nowrap;
+}
+
+#content span
+{
+    margin-right: 50%;
+    text-align: left;
+    border-radius: 0.7rem;
+    padding: 0.2rem;
+    background-color: blanchedalmond;
+    font-size: 1.2rem;
+    color: black;
+    overflow: hidden;   
+}
+
+
+
+#nav,#content
+{
+    height: 35rem;
+}
+
+#foot
+{
+    width: 100%;
+    height: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 3rem;
+    background-color: #E9BE31;
+    clear: both;
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor:crosshair;
+    color: beige;
+}
+
+#foot:hover
+{
+    color: black;
+    border-style: solid;
+    background-color: beige;
+}
